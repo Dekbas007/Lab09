@@ -74,4 +74,14 @@
   .view-posts-btn:hover {
     background-color: #218838;
   }
+
+  .post-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .post-body.show {
+    white-space: normal;
+  }
   
